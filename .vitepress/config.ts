@@ -9,6 +9,7 @@ export default defineConfig({
   title: 'Chi-UI',
   description: '一个 Vue 3 组件库，全量 Typescript。',
   lang: 'zh-Hans',
+  base: '/chi-ui/',
   markdown: {
     config(md) {
       md.use(containerPreview)
